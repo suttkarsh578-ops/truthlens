@@ -1,0 +1,17 @@
+{
+    "model_name": "Logistic Regression",
+    "training_date": "2026-09-29T20:33:02.687596",
+    "dataset_size": 1012,
+    "training_samples": 809,
+    "test_samples": 203,
+    "features": 5000,
+    "random_state": 42,
+    "vectorizer": "TfidfVectorizer",
+    "vectorizer_config": {
+        "max_features": 5000,
+        "ngram_range": [
+            1,
+            2
+        ]
+    }
+}

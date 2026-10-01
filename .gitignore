@@ -31,9 +31,10 @@ ENV/
 *.env
 !.env.example
 
-# ML Artifacts (generated locally)
-backend/app/ml/artifacts/*.pkl
-backend/app/ml/artifacts/*.json
+# ML Artifacts (ALLOWING MODEL FILES TO BE PUSHED TO GIT)
+# Commented out so .pkl and .json files can be committed & deployed to Render
+# backend/app/ml/artifacts/*.pkl
+# backend/app/ml/artifacts/*.json
 !backend/app/ml/artifacts/.gitkeep
 
 # Large dataset files (add to repo only if small)
